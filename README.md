@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+# amis-admin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 项目介绍
 
-Currently, two official plugins are available:
+### 关于低代码
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+在前端开发领域, 随着技术的不断发展和项目的不断复杂化, 开发门槛越来越高, 对开发者的技能要求也越来越高.
+为了简化开发过程和提高开发效率, 低代码框架应运而生.
 
-## Expanding the ESLint configuration
+### AMIS 是什么
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+AMIS 是一个基于 Web 前端的低代码开发框架, 通过可视化的方式帮助开发者快速构建页面和应用程序.
+它提供了丰富的组件和工具, 使得开发者可以更加专注于业务逻辑的实现, 而不需要过多关注技术细节.
 
-- Configure the top-level `parserOptions` property like this:
+### 为什么选择 AMIS
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+AMIS 作为百度开源的低代码前端框架, 有着丰富的组件库, 可以满足大部分的业务需求. 作为一个优秀的开源项目,
+AMIS 的代码质量, 稳定性以及测试覆盖率都是有保障的. 同时, AMIS 也提供了丰富的文档和示例, 使得开发者可以
+更快的上手.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 实践与总结
+
+低代码的出发点是为了简化开发, 但在实际使用中, 有时候反而会增加开发成本, 比如:
+
+- 低代码框架的维护成本高, 一旦框架出现问题, 会影响到整个项目, 甚至整个团队的开发效率.
+- 低代码框架的学习成本, 有时候会比直接开发还要高, 页面配置与业务逻辑混杂在一起, 使得代码的可维护性可读性变得很差.
+- AMIS 的组件库虽然丰富, 但有时候并不能满足我们的需求, 还是需要自己扩展或者自定义组件,
+  而这类场景的出现往往伴随着复杂的业务场景, 扩展性与灵活度都不如定制化开发.同时要做到这一步, 也需要对 AMIS
+  的底层原理有一定的了解, 对开发者的技术要求也不低.
+
+或许低代码框架并不是万能的, 适用于所有场景的, 但它确实是一个很好的工具. 充分利用低代码框架的优势, 适当的结合
+自定义开发, 可以较大程度的提高开发效率, 降低开发成本.
+
+## 环境与依赖
+
+| 名称               | 版本      | 名称 | 版本 |
+|------------------|---------|----|----|
+| react            | 16.14.0 |    |    |
+| react-dom        | 16.14.0 |    |    |
+| @types/react     | 16.9.0  |    |    |
+| @types/react-dom | 16.9.0  |    |    |
+
+## 项目结构
