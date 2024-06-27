@@ -8,6 +8,13 @@
     "build": "tsc -b && vite build"
   },
   "dependencies": {
+    "amis": "^6.5.0",
+    "amis-core": "^6.5.0",
+    "amis-editor": "^6.5.0",
+    "amis-editor-core": "^6.5.0",
+    "amis-formula": "^6.5.0",
+    "amis-ui": "^6.5.0",
+    "monaco-editor": "^0.50.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   },
